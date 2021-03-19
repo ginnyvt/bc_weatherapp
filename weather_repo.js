@@ -1,4 +1,4 @@
-const API_KEY = '730190bd4583be3c02f667d5411d5cdc';
+const API_KEY = process.env.OPEN_WEATHER_API;
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather?';
 const axios = require('axios');
 
